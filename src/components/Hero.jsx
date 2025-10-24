@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex items-center flex-col gap-6">
+    <section className="flex items-center flex-col gap-6">
       <h1 className="capitalize font-bold text-3xl">how's the sky looking today?</h1>
       <form action="" className="flex items-center gap-3">
         <input
@@ -16,7 +16,7 @@ function Hero() {
           Search
         </button>
       </form>
-    </div>
+    </section>
   );
 }
 

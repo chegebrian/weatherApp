@@ -2,7 +2,7 @@ import React from "react";
 
 function DailyForecast() {
   return (
-    <div className="bg-[#181818] ">
+    <section className="bg-[#181818] ">
       <h3>DailyForecast</h3>
       <div>
         <div className="flex gap-4 items-center flex-col py-3 px-2 rounded-md">
@@ -16,7 +16,7 @@ function DailyForecast() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

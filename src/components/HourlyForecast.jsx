@@ -1,6 +1,6 @@
 import React from "react";
 
-function Forecast() {
+function HourlyForecast() {
   return (
     <section className="bg-[#181818] rounded-lg p-4 flex flex-col gap-4">
       <div className="flex items-center justify-between gap-2">
@@ -30,4 +30,4 @@ function Forecast() {
   );
 }
 
-export default Forecast;
+export default HourlyForecast;
