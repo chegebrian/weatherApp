@@ -2,10 +2,10 @@ import React from "react";
 
 function Header() {
   return (
-    <header>
+    <header className="flex items-center justify-between">
       <img src="../../public/assets/images/logo.svg" alt="logo" />
-      <div>
-        <label htmlFor="unitis">
+      <div className="flex items-center gap-2">
+        <label htmlFor="units">
           <img
             src="../../public/assets/images/icon-units.svg"
             alt="settings-icon"

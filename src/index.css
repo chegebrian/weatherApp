@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+body {
+  background-color: #121212;
+  color: #fff;
+  height: 100vh;
+}
+
+header div {
+  /* border: 1px solid #fff; */
+  padding: 0.25rem;
+}
+
+header div:hover{
+    border: 1px solid #fff;
+}
+
+select {
+  outline: none;
+  border: none;
+  background-color: #121212;
+  color: #fff;
+}
