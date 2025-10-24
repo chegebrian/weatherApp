@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Forecast from "./components/Forecast";
+import DailyForecast from "./components/DailyForecast";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Forecast />
+      <DailyForecast />
     </div>
   );
 }
